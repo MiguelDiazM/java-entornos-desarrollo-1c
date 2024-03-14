@@ -1,37 +1,17 @@
-
+package Persona;
 import java.util.*;
 
 /**
  * 
  */
 public class Persona {
-
-    /**
-     * Default constructor
-     */
-    public Persona() {
-    }
-
-    /**
-     * 
-     */
-    private String dni;
-
-    /**
-     * 
-     */
+	private String dni;
     private String nombre;
-
-    /**
-     * 
-     */
     private String apellidos;
-
-    /**
-     * 
-     */
     private int edad;
 
+    public Persona() {
+    }
     /**
      * @param dni 
      * @param nombre 
@@ -39,14 +19,17 @@ public class Persona {
      * @param edad
      */
     public Persona(String dni, String nombre, String apellidos, int edad) {
-        // TODO implement here
+      this.dni=dni;
+      this.nombre=nombre;
+      this.apellidos=apellidos;
+      this.edad=edad;
     }
 
     /**
      * @return
      */
     public String GetDni() {
-        // TODO implement here
+        
         return "";
     }
 
@@ -54,14 +37,14 @@ public class Persona {
      * @param dni
      */
     public void SetDni(String dni) {
-        // TODO implement here
+        
     }
 
     /**
      * @return
      */
     public String GetNombre() {
-        // TODO implement here
+        
         return "";
     }
 
@@ -69,14 +52,14 @@ public class Persona {
      * @param nombre
      */
     public void SetNombre(String nombre) {
-        // TODO implement here
+        
     }
 
     /**
      * @return
      */
     public String GetApellidos() {
-        // TODO implement here
+        
         return "";
     }
 
@@ -84,22 +67,22 @@ public class Persona {
      * @param apellidos
      */
     public void SetApellidos(String apellidos) {
-        // TODO implement here
+        
     }
 
     /**
      * @return
      */
     public int GetEdad() {
-        // TODO implement here
+       
         return 0;
     }
 
     /**
-     * @param int
+     * @param edad
      */
-    public void SetEdad(edad int) {
-        // TODO implement here
+    public void SetEdad(int edad) {
+       
     }
 
 }
