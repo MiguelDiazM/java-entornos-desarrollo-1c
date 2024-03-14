@@ -30,14 +30,14 @@ public class Persona {
      */
     public String GetDni() {
         
-        return "";
+        return dni;
     }
 
     /**
      * @param dni
      */
     public void SetDni(String dni) {
-        
+        this.dni=dni;
     }
 
     /**
@@ -45,14 +45,14 @@ public class Persona {
      */
     public String GetNombre() {
         
-        return "";
+        return nombre;
     }
 
     /**
      * @param nombre
      */
     public void SetNombre(String nombre) {
-        
+        this.nombre=nombre;
     }
 
     /**
@@ -60,14 +60,14 @@ public class Persona {
      */
     public String GetApellidos() {
         
-        return "";
+        return apellidos;
     }
 
     /**
      * @param apellidos
      */
     public void SetApellidos(String apellidos) {
-        
+        this.apellidos=apellidos;
     }
 
     /**
@@ -75,14 +75,20 @@ public class Persona {
      */
     public int GetEdad() {
        
-        return 0;
+        return edad;
     }
 
     /**
      * @param edad
      */
     public void SetEdad(int edad) {
-       
+       this.edad=edad;
     }
+	@Override
+	public String toString() {
+		return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]";
+	}
+    
+    
 
 }
